@@ -35,7 +35,7 @@ ENV SHELL /bin/bash
 RUN mkdir -p /home/epoch/node/data/mnesia \
     && mkdir -p /home/epoch/node/keys \
     && mkdir -p /home/epoch/node/log \
-    && touch /home/epoch/myepoch.yaml
+    && mkdir -p /home/epoch/node/config
 
 WORKDIR /home/epoch/node
 
